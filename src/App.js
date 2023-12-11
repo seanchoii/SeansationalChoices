@@ -8,6 +8,7 @@ function App() {
   const center = useMemo(() => ({ lat: 51.0447, lng: -114.0719}), []);
   const [selectedRestaurant, setSelectedRestaurant] = useState(null);
   const [showSushi, setShowSushi] = useState(false); // State to track sushi checkbox
+  const [showRamen, setShowRamen] = useState(false); // State to track ramen checkbox
 
   const handleMapClick = () => {
     setSelectedRestaurant(null);
@@ -16,10 +17,18 @@ function App() {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: 'AIzaSyDuhuOQcN5FDe7hj8cp2lLrshxsAK1oJRw',
   });
-  const filteredRestaurants = showSushi ? restaurants.filter(restaurant => restaurant.type === 'sushi') : restaurants;
+  const filteredRestaurants = restaurants.filter(restaurant => {
+    if (!showSushi && restaurant.type === 'sushi') return true;
+    if (!showRamen && restaurant.type === 'ramen') return true;
+    return false;
+  });
 
   const handleSushiCheckboxChange = (event) => {
     setShowSushi(!event.target.checked);
+  };
+
+  const handleRamenCheckboxChange = () => {
+    setShowRamen(!showRamen);
   };
   if(!isLoaded){
     return <></>
@@ -34,8 +43,8 @@ function App() {
         <p>- Brutally Honest Reviews ✅</p><br></br>
         <input type = "checkbox" name = "sushi" checked={!showSushi} onChange={handleSushiCheckboxChange}></input>
         <label for = "sushi">Sushi🍣  </label>
-        <input type = "checkbox" name = "korean"></input>
-        <label for = "korean">Korean🍙</label>
+        <input type = "checkbox" name = "ramen" checked={!showRamen} onChange={handleRamenCheckboxChange}></input>
+        <label for = "ramen">Ramen🥡</label>
         <small className = "name">seannnchoi@gmail.com <br></br> Email me for a restraunt suggestion!</small>
       </div>
    
@@ -46,21 +55,30 @@ function App() {
             zoom={10.6}
             onClick={handleMapClick}
           >
-            {filteredRestaurants.map((restaurant, index) => (
+            {filteredRestaurants.map((restaurant, index) => {
+            let iconUrl = ''; // Default icon URL
+            if (restaurant.type === 'sushi') {
+              iconUrl = require('./assets/sushi.svg').default; // Sushi icon URL
+            } else if (restaurant.type === 'ramen') {
+              iconUrl = require('./assets/ramen.svg').default; // Ramen icon URL
+            }
+
+            return (
               <MarkerF
-              key={index}
-              position={{lat:restaurant.latitude, lng: restaurant.longitude}}
-              title={restaurant.name}
-              icon={{
-                url:(require('./assets/sushi-24.svg')).default,
-                scaledSize: new window.google.maps.Size(45,45),
-                size: new window.google.maps.Size(45,45),
-              }}
-              onClick={() => {
-                setSelectedRestaurant(restaurant);
-              }}
-            />
-            ))}
+                key={index}
+                position={{ lat: restaurant.latitude, lng: restaurant.longitude }}
+                title={restaurant.name}
+                icon={{
+                  url: iconUrl,
+                  scaledSize: new window.google.maps.Size(35, 35),
+                  size: new window.google.maps.Size(35, 35),
+                }}
+                onClick={() => {
+                  setSelectedRestaurant(restaurant);
+                }}
+              />
+            );
+          })}
             {selectedRestaurant && (
           <InfoWindowF
             position={{ lat: selectedRestaurant.latitude, lng: selectedRestaurant.longitude }}
