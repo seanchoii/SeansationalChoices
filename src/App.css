@@ -29,6 +29,50 @@
   width:100%;
 }
 
+.randomButton{
+  margin-top:130px;
+}
+
+.randomButton button{
+  color:#666;
+  margin-right:25px;
+  font-family: myFont, sans-serif;
+  outline:0; 
+  background:#fff;
+  border:none;
+  padding:1.1em 1.1em;
+  transition:all .1s ease-out; 
+  cursor: pointer;
+  border-radius:12px;
+  box-shadow:inset 0 -8px 0 0 rgba(0,0,0,.2),
+    1px 1px 0 0 #000000,
+    2px 2px 0 0 #000000,
+    3px 3px 0 0 #000000,
+    4px 4px 0 0 #000000,
+    5px 5px 0 0 #000000,
+    6px 6px 0 0 #000000,
+    7px 7px 0 0 #000000,
+    8px 8px 0 0 #000000,
+    9px 9px 0 0 #000000,
+    10px 10px 0 0 #000000,
+    11px 11px 0 0 #000000,
+    12px 12px 0 0 #000000;   
+}
+
+.randomButton button:hover{
+  transform: scale(1.1) perspective(1px);
+  color:#000;
+}
+
+.randomButton button:active{
+  color:#222;
+  box-shadow:inset 0 -4px 0 0 rgba(0,0,0,.2),
+    1px 1px 0 0 #000000,
+    2px 2px 0 0 #000000,
+    3px 3px 0 0 #000000,
+    4px 4px 0 0 #000000,
+    5px 5px 0 0 #000000;
+}
 .name{
   position:absolute;
   bottom: 10px;
