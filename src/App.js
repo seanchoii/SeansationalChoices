@@ -209,7 +209,7 @@ const pickRandomRestaurant = () => {
               setSelectedRestaurant(null);
             }}
           >
-            <div style = {{maxWidth: '400px'}}>
+            <div style = {{maxWidth: '450px'}}>
               <h2>{selectedRestaurant.name}</h2>
               <p>Address: {selectedRestaurant.address}</p>
               {/* Add more details for each restaurant */}

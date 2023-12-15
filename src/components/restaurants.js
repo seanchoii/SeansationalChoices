@@ -1,4 +1,5 @@
 export const restaurants = [
+    // sushi
     {
         name: "Kinjo Sushi & Grill Dalhousie 🍣",
         type: 'sushi',
@@ -116,6 +117,7 @@ export const restaurants = [
         rating: "⭐⭐ 2/10"
     },
 
+    // ramen
     {
         name: "Tokyo Street Market 🥡",
         type: 'ramen',
@@ -170,6 +172,7 @@ export const restaurants = [
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10"
     },
 
+    // vietnamese
     {
         name: "Pho City 🍜",
         type: 'vietnamese',
@@ -233,6 +236,7 @@ export const restaurants = [
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10"
     },
 
+    // korean
     {
         name: "Izumi Kitchen & Bar 🍙",
         type: 'korean',
@@ -305,6 +309,7 @@ export const restaurants = [
         rating: "⭐⭐⭐ 3/10"
     },
 
+    // chicken
     {
         name: "Seoul Fried Chicken Calgary 🍗",
         type: 'chicken',
@@ -332,8 +337,9 @@ export const restaurants = [
         rating: "⭐⭐⭐⭐ 4/10"
     },
 
+    // pizza
     {
-        name: "Seniore's Pizza Restaurant",
+        name: "Seniore's Pizza Restaurant 🍕",
         type: 'pizza',
         address: "176 Bedford Dr NE #5, Calgary, AB T3K 2M9",
         latitude:51.12701926705517, 
@@ -342,7 +348,7 @@ export const restaurants = [
     },
 
     {
-        name: "Papa John's Pizza",
+        name: "Papa John's Pizza 🍕",
         type: 'pizza',
         address: "18 Arbour Lake Way NW, Calgary, AB T3G 5X4",
         latitude:51.137960712979876, 
@@ -351,7 +357,7 @@ export const restaurants = [
     },
 
     {
-        name: "Varsity Pizza & Subs",
+        name: "Varsity Pizza & Subs 🍕",
         type: 'pizza',
         address: "4624 Varsity Dr NW, Calgary, AB T3A 2L9",
         latitude:51.09355593660302, 
@@ -359,14 +365,64 @@ export const restaurants = [
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10"
     },
 
-    
+    // hamburger
     {
-        name: "Jam's diner",
+        name: "Jam's diner 🍔",
         type: 'hamburger',
         address: "1209 9 Ave SE, Calgary, AB T2G 0S9",
         latitude:51.04184862050971, 
         longitude: -114.036216902449, 
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10"
+    },
+
+    // steak
+    {
+        name: "Ten Foot Henry 🥩",
+        type: 'steak',
+        address: "1209 1 St SW, Calgary, AB T2R 0V3",
+        latitude:51.04106721106064, 
+        longitude: -114.06598670435045, 
+        rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10"
+    },
+
+    // chinese
+    {
+        name: "Bobby Chao's Restaurant 🍚",
+        type: 'chinese',
+        address: "34 Edgedale Dr NW #18, Calgary, AB T3A 2R4",
+        latitude:51.11909201897636, 
+        longitude: -114.15679060220815, 
+        rating: "⭐⭐⭐⭐⭐⭐ 6/10"
+    },
+
+    // italian
+    {
+        name: "My Little Italia 🍝",
+        type: 'italian',
+        address: "2015 4 St SW #5, Calgary, AB T2S 1W6",
+        latitude:51.03463456697121, 
+        longitude: -114.07177768270242, 
+        rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10"
+    },
+
+    // dessert
+    {
+        name: "Village Ice Cream 🍦",
+        type: 'dessert',
+        address: "University District, 4019 University Ave NW, Calgary, AB T3B 6K3",
+        latitude: 51.07819654624652, 
+        longitude: -114.14506137844538, 
+        rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10"
+    },
+
+    // other
+    {
+        name: "Añejo Restaurant 🌮",
+        type: 'other',
+        address: "University District, 4019 University Ave NW, Calgary, AB T3B 6K3",
+        latitude: 51.03370396604457, 
+        longitude: -114.07124841551587 , 
+        rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10"
     },
 
 ]
