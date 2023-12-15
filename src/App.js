@@ -65,7 +65,30 @@ function App() {
   const handleOtherCheckboxChange = () => {
     setOther(!showOther);
   };
- 
+const pickRandomRestaurant = () => {
+  const filteredRestaurants = restaurants.filter(restaurant => {
+    return (
+      (showSushi && restaurant.type === 'sushi') ||
+      (showRamen && restaurant.type === 'ramen') || 
+      (showRamen && restaurant.type === 'vietnamese') ||
+      (showRamen && restaurant.type === 'korean') ||
+      (showRamen && restaurant.type === 'chicken') ||
+      (showRamen && restaurant.type === 'pizza') ||
+      (showRamen && restaurant.type === 'hamburger') ||
+      (showRamen && restaurant.type === 'steak') ||
+      (showRamen && restaurant.type === 'chinese') ||
+      (showRamen && restaurant.type === 'italian') ||
+      (showRamen && restaurant.type === 'dessert') ||
+      (showRamen && restaurant.type === 'other') 
+    );
+  });
+
+  const randomIndex = Math.floor(Math.random() * filteredRestaurants.length);
+
+  const randomRestaurant = filteredRestaurants[randomIndex];
+
+  setSelectedRestaurant(randomRestaurant);
+};
   if(!isLoaded){
     return <></>
   }
@@ -104,7 +127,7 @@ function App() {
         
         <div className='randomButton'>
           <p>Not sure where to eat tonight?</p>
-          <button>Pick a random restaurant</button>
+          <button onClick={pickRandomRestaurant}>Pick a random restaurant</button>
 
         </div>   
         <small className = "name">seannnchoi@gmail.com <br></br> Email me for a restraunt suggestion!</small>
