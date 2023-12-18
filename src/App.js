@@ -4,7 +4,6 @@ import { useMemo, useState } from "react";
 import { restaurants } from './components/restaurants';
 
 function App() {
-  
   const center = useMemo(() => ({ lat: 51.0447, lng: -114.0719}), []);
   const [selectedRestaurant, setSelectedRestaurant] = useState(null);
   const [showSushi, setShowSushi] = useState(true); 

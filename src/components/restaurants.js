@@ -19,9 +19,9 @@ export const restaurants = [
         latitude: 51.06638,
         longitude: -114.10081,
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Similar to Dalhousie one, their food is not spectacular, but not bad",
+        review2: "- I went there when the place just opened, so it was not as organized as the Dalhousie one",
+        review3: "- Like their beef tataki and volcano rolls"
     },
 
     {
@@ -31,9 +31,9 @@ export const restaurants = [
         latitude: 51.04183968891738,  
         longitude: -114.0364355301443,
         rating: "⭐⭐⭐⭐⭐⭐ 6/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- High quality sushi place",
+        review2: "- The price is a bit high. The bill was over $100 for two people",
+        review3: "- Their food is good especially Hamachi, however knowing its price, it was a bit disappointing"
     },
 
     {
@@ -43,9 +43,9 @@ export const restaurants = [
         latitude: 51.12340437258305,
         longitude: -114.19834289677064,
         rating: "⭐⭐⭐ 3/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- All you can eat sushi place",
+        review2: "- Most foods were dry or soggy, Especially sashimi had weird fishy smell",
+        review3: "- Their service was slow and unfriendly, I would never come back to this place"
     },
 
     {
@@ -55,9 +55,9 @@ export const restaurants = [
         latitude: 51.019344791750214, 
         longitude: -114.16882113725244,
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- All you can eat sushi place",
+        review2: "- A lot of variety on the menu, their sushi rolls are great, however sashimi is quite disappointing",
+        review3: "- Their customer service was friendly, but a bit slow at times"
     },
 
     {
@@ -67,9 +67,9 @@ export const restaurants = [
         latitude: 51.12727242460731, 
         longitude: -114.1957504531855,
         rating: "⭐⭐⭐⭐⭐⭐ 6/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Sushi place containing a variety of sushi menus",
+        review2: "- Their sushi rolls are great, but sushi and sashimi were not as good",
+        review3: "- The tuna sashimi still contained fishbones, and I almost choked :( not a good experience"
     },
 
     {
@@ -79,9 +79,9 @@ export const restaurants = [
         latitude: 51.061124533610204,
         longitude: -114.18092291512714,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Sushi place containing a variety of sushi menus",
+        review2: "- Their spicy salmon and tuna rolls were delicious",
+        review3: "- They usually have great deals on Uber Eats"
     },
     
     {
@@ -91,9 +91,9 @@ export const restaurants = [
         latitude: 51.12720457704648, 
         longitude: -114.20639412530971,
         rating: "⭐⭐⭐⭐⭐ 5/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Each dish passes by your table on a floating Sushi boat, fun experience :)",
+        review2: "- Their food was not my cup of tea, did not really like their rolls or sushi",
+        review3: "- They do have great deals on TooGoodToGo, which is an app where restaurants sell leftovers for cheap"
     },
 
     {
@@ -103,9 +103,9 @@ export const restaurants = [
         latitude: 51.070804014473154, 
         longitude: -114.08514075583035 ,
         rating: "⭐⭐⭐ 3/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- A sushi place selling sushi, rolls, and poke bowls",
+        review2: "- Had their salmon poke bowl, and I did not like it. It had small portions, not enough sauce, and their salmon had fishy smell",
+        review3: "- I would personally never eat from here again"
     },
 
     {
@@ -115,9 +115,9 @@ export const restaurants = [
         latitude:  51.05427362102163, 
         longitude: -114.08570940855583,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- A delicious sushi place located in the heart of Kensington",
+        review2: "- Really enjoyed eating their signature pocket sushis. Highly recommend spicy tuna and sweet chili shrimp",
+        review3: "- They usually have great deals on Uber eats"
     },
 
     {
@@ -127,9 +127,9 @@ export const restaurants = [
         latitude:  51.038634239418776, 
         longitude: -114.09439600381978 ,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Delicious Fusion Japanese Bar located in Hillhurst",
+        review2: "- They had the best beef tataki i have ever had. They have great happy hour menu containing bao and drinks",
+        review3: "- The only reason this restaurant is not a 10 is because their carbonara ramen was terrible"
     },
 
     {
@@ -139,9 +139,9 @@ export const restaurants = [
         latitude:  51.03800715594472, 
         longitude: -114.0731023903087 ,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ 10/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Japanese inspired bar serving an eclectic variety of Modern Japanese cuisines and beverages",
+        review2: "- Really like their interior, very cozy and warm. Their happy hour is great containing a lot of food menus for cheap",
+        review3: "- The food is amazing. Highly recommend AB Beef Handrolls and Kake udon"
     },
 
     {
@@ -151,9 +151,9 @@ export const restaurants = [
         latitude:  51.03977644659879, 
         longitude: -114.08143673604098 ,
         rating: "⭐⭐ 2/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- A restaurant containing a variety food from Asian countries",
+        review2: "- Their beef tataki had a very weird smell to it (DO NOT EAT)",
+        review3: "- Their customer service was quite unfriendly and unprofessional"
     },
 
     // ramen
@@ -164,9 +164,9 @@ export const restaurants = [
         latitude:  51.06053702174044, 
         longitude: -114.06229681569938,
         rating: "⭐⭐⭐⭐⭐⭐ 6/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- A restaurant that sells food that you normally find in the streets of Japan",
+        review2: "- Their ramen is decent, but the rest of the menu is pretty underwhelming. (Black ramen recommended)",
+        review3: "- They are owned by the owner of Kinjo, so there isn't much difference from Kinjo"
     },
     
     {
@@ -176,9 +176,9 @@ export const restaurants = [
         latitude:  51.05403619086431,  
         longitude: -114.09448931494634,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- A restaurant that sells ramen at a cheap price with good portion size",
+        review2: "- Their ramen is good. Highly recommend their Tonkotsu Ramen",
+        review3: "- You can add more toppings that cost extra, however since the ramen itself is cheap, I recommend you to add more toppings"
     },
 
     {
@@ -188,9 +188,9 @@ export const restaurants = [
         latitude:  51.052170189989,   
         longitude: -114.09173165537375,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- A restaurant that have quality ramen",
+        review2: "- My brother used to work here, so I tried a lot of the menu",
+        review3: "- Their ramen is good all around, Highly recommend Spicy Tonkotsu Ramen"
     },
 
     {
@@ -200,9 +200,9 @@ export const restaurants = [
         latitude:  51.05336738156965,  
         longitude: -114.04408136685629 ,
         rating: "⭐⭐⭐⭐⭐ 5/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- A restaurant located in Bridgeland, it is open only on lunch time",
+        review2: "- I heard a lot of good things for this restaurant, and I was excited to try this place",
+        review3: "- Their ramen is not bad, however it was a bit greasy and could not finish one bowl"
     },
 
     {
@@ -212,9 +212,9 @@ export const restaurants = [
         latitude:  51.03689836216317, 
         longitude: -114.0707853919036,  
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- The ramen place located near 17th street",
+        review2: "- This place has good ramen, however they are a bit pricey, recommend Tonkotsu Black Ramen",
+        review3: "- If this place was a bit cheaper, it would have been the best ramen place for me"
     },
 
     {
@@ -224,9 +224,9 @@ export const restaurants = [
         latitude: 51.08654503927365,  
         longitude: -114.12864035775628,  
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- A Japanese Cuisine that is located near Brentwood Station below the apartment",
+        review2: "- Their ramen is decent with great portion size. Recommend their Shoyu Ramen",
+        review3: "- Must be nice living above the restaurant :(("
     },
 
     // vietnamese
