@@ -214,6 +214,9 @@ const pickRandomRestaurant = () => {
               <p>Address: {selectedRestaurant.address}</p>
               {/* Add more details for each restaurant */}
               <p>{selectedRestaurant.rating}</p>
+              <p>{selectedRestaurant.review1}</p>
+              <p>{selectedRestaurant.review2}</p>
+              <p>{selectedRestaurant.review3}</p>
             </div>
           </InfoWindowF>
         )}
