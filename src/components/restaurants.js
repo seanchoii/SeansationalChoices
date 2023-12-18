@@ -237,9 +237,9 @@ export const restaurants = [
         latitude: 51.050745054917186,  
         longitude: -114.06058506235375,  
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ 10/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- My favourite Pho place in Calgary!",
+        review2: "- Huge portion size with cheap prices (YOU MUST VISIT)",
+        review3: "- Love their peanut sate beef"
     },
 
     {
@@ -249,9 +249,9 @@ export const restaurants = [
         latitude:51.07816514001141, 
         longitude: -114.13149597492182  ,  
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- My favourite pho spot at school",
+        review2: "- Their sate beef is elite",
+        review3: "- Cheap options available as well such as 4.75 special (1 spring roll & rice or noodle)"
     },
 
     {
@@ -261,9 +261,9 @@ export const restaurants = [
         latitude: 51.07831843020113,  
         longitude: -114.13167124253299,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- My favourite viet sub in Calgary",
+        review2: "- You have many options to choose from! Recommend Sate beef sub",
+        review3: "- Choose toppings and sauces you like and you get yourself a delicious sub"
     },
 
     {
@@ -273,9 +273,9 @@ export const restaurants = [
         latitude: 51.12976016928524,   
         longitude: -114.20037396869178,
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Decent Pho restaurant located near Crowfoot Station",
+        review2: "- Their peanut sate beef is very good",
+        review3: "- Other menu is not bad, but it can be better"
     },
 
     {
@@ -285,9 +285,9 @@ export const restaurants = [
         latitude: 51.151841165667875,    
         longitude: -114.2116701070913,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- One of the more expensive pho spots",
+        review2: "- The pho broth is personally the best in Calgary, onion cake is also highly recommended",
+        review3: "- House Speical Pho is recommended for pho options"
     },
 
     {
@@ -297,9 +297,9 @@ export const restaurants = [
         latitude: 51.123398361500904,   
         longitude: -114.20310691007455 ,
         rating: "⭐⭐ 2/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- One of if not the worst pho I have ever had",
+        review2: "- The broth is disgusting, I mean DISGUSTING",
+        review3: "- The meat is overcooked and dry"
     },
 
     {
@@ -309,9 +309,9 @@ export const restaurants = [
         latitude: 51.06721282460241,   
         longitude: -114.0679572435471,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- The pho place near SAIT with HUGE portion",
+        review2: "- Their portion size is HUGE with quite cheap price",
+        review3: "- The quality is decent, but the portion gets this restaurant a 8"
     },
 
     // korean
@@ -322,9 +322,9 @@ export const restaurants = [
         latitude: 51.04691412052098,  
         longitude:-114.08327257211921 ,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ 10/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- My goto Korean / Japanese restaurant in Calgary",
+        review2: "- Their King Katsu is Huge, I mean HUGE!! and also very good",
+        review3: "- The price is quite reasonable as well (Highly recommend this place)"
     },
 
     {
@@ -334,9 +334,9 @@ export const restaurants = [
         latitude: 51.00238298000308,   
         longitude:-114.07131895702435,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- My personal favourite jajangmyeon spot in Calgary",
+        review2: "- Classic jajangmyeon restaurant with many variety options",
+        review3: "- Food quality is very good (Highly recommend jjamppong and Fried Chicken w/ sweet&spicy sauce"
     },
 
     {
@@ -346,9 +346,9 @@ export const restaurants = [
         latitude: 51.03738447884853, 
         longitude: -114.17674880246204,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- It is a close second jajangmyeon spot in Calgary",
+        review2: "- I really like their jajangmyeon because of its sauce and minced meat",
+        review3: "- Might be a little too sweet for some people"
     },
 
     {
@@ -358,9 +358,9 @@ export const restaurants = [
         latitude: 50.99224673585495, 
         longitude: -114.05998674192944,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Classic Korean restaurant located near Chinook station",
+        review2: "- Highly recommend their Pork Gukbap!!",
+        review3: "- Their side dishes are delicious (I go to this place for side dishes hehe)"
     },
 
     {
@@ -370,9 +370,9 @@ export const restaurants = [
         latitude:51.14101001764086, 
         longitude: -114.0700279025381,
         rating: "⭐⭐⭐⭐ 4/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- It is a Korean restaurant located in Harvest Hills",
+        review2: "- I don't want to say this, but their food is nothing special",
+        review3: "- Cold noodles were bad, side dishes were also bad, I would not come back to this place"
     },
 
     {
@@ -382,9 +382,9 @@ export const restaurants = [
         latitude: 51.01469072197202, 
         longitude: -114.06452146013504,
         rating: "⭐⭐⭐⭐⭐ 5/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- New Korean hot noodle restaurant",
+        review2: "- Quite expensive for a hot noodle (kkalguksu)",
+        review3: "- The broth was a bit greasy, dumplings and pancakes were one of the worst"
     },
 
     {
@@ -394,9 +394,9 @@ export const restaurants = [
         latitude: 51.029928418239834, 
         longitude: -114.14183101646614,
         rating: "⭐⭐⭐⭐ 4/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Classic jajangmyeon spot in Calgary",
+        review2: "- They used to be the best and only jajangmyeon spot in Calgary, However, their short fame is over because there are several restaurants that are just better",
+        review3: "- Food quality has gone down dramatically and I heard they actually had to close for sometime due to sanitary reasons (rats!!)"
     },
 
     {
@@ -406,21 +406,9 @@ export const restaurants = [
         latitude: 51.082585527122255, 
         longitude: -114.09429906506844,
         rating: "⭐⭐⭐ 3/10",
-        review1: "",
-        review2: "",
-        review3: ""
-    },
-
-    {
-        name: "Jjawang 🍙",
-        type: 'korean',
-        address: "40 Christie Park View SW #1150, Calgary, AB T3H 6E7",
-        latitude: 51.037393437738274, 
-        longitude: -114.17674734774502,
-        rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Korean Cuisine that is highly disappointing",
+        review2: "- I had a lot of hopes for this restaurant because it is near my house, however their food quality is just bad like BAD",
+        review3: "- One thing I like from this restaurant are side dishes and that is it"
     },
 
     {
@@ -430,9 +418,9 @@ export const restaurants = [
         latitude: 51.04725146937079, 
         longitude: -114.08291436651122,
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Izumi's long rival, The apron (they are located right across)",
+        review2: "- I highly recommend their Yukhoe Bibimbop (raw beef bibimbop) I think I like raw meat too much",
+        review3: "- Quite expensive and I think Izumi is better"
     },
 
     {
@@ -442,9 +430,9 @@ export const restaurants = [
         latitude: 51.04872476009947, 
         longitude: -114.08627057146813,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- It used to be my favourite Korean restaurant",
+        review2: "- However, The food quality had gone down recently bringing the rating down to 8",
+        review3: "- Still recommend Gamja Tang (Spicy pork soup) and side dishes are quality!"
     },
 
     {
@@ -454,9 +442,9 @@ export const restaurants = [
         latitude: 51.044577067577556, 
         longitude: -114.09274262211191,
         rating: "⭐⭐⭐ 3/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- One of the oldest Korean restaurant in Calgary",
+        review2: "- Still do not understand why the menus are so expensive when the food quality is bad",
+        review3: "- I do not recommend this place!"
     },
 
     {
@@ -466,9 +454,9 @@ export const restaurants = [
         latitude: 51.04169474596787, 
         longitude: -114.07860990001664, 
         rating: "⭐⭐⭐ 3/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Korean restaurant located in the heart of Downtown Calgary",
+        review2: "- I think I was a bit too harsh on the rating, but the food really is not great",
+        review3: "- Even the side dishes were not great"
     },
 
     {
@@ -478,9 +466,9 @@ export const restaurants = [
         latitude:51.06460111699131, 
         longitude: -114.21004891058887, 
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Korean Cupbop restaurant",
+        review2: "- Variety of options to choose from including my personal favourite cheesling fries",
+        review3: "- Good deals on Uber eats"
     },
 
     {
@@ -489,10 +477,10 @@ export const restaurants = [
         address: "128 2 Ave SE Unit 117, Calgary, AB T2G 5J5",
         latitude: 51.05130037859774, 
         longitude: -114.06114658796074, 
-        rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10",
+        review1: "- My favourite Korean street food restaurant",
+        review2: "- Their food is good and price is very reasonable",
+        review3: "- The owner is very nice (she's my friend's mom)"
     },
 
     {
@@ -502,9 +490,9 @@ export const restaurants = [
         latitude: 51.054517051908995, 
         longitude: -114.08558339542203 , 
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Popular Katsu spot in Kensington",
+        review2: "- They have a lot of Katsu options including cheese katsu, curry katsu",
+        review3: "- They are delicious, but not as good as King Katsu from Izumi"
     },
 
     // chicken
