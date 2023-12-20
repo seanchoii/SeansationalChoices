@@ -503,9 +503,9 @@ export const restaurants = [
         latitude: 51.03402392611848,  
         longitude: -114.07131479167954,
         rating: "⭐ 1/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- New Chicken Place located near 17th street",
+        review2: "- Probably the soggiest chicken i have ever had (DO NOT EAT)",
+        review3: "- They got the order wrong as well"
     },
 
     {
@@ -515,9 +515,9 @@ export const restaurants = [
         latitude: 51.14055454945195, 
         longitude: -114.06790509812238,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Korean Chicken place that originated from BC",
+        review2: "- Very classic Korean Fried Chicken, cannot go wrong with this",
+        review3: "- Highly recommend Yangnyeom Chicken and Soy Chicken"
     },
 
     {
@@ -527,9 +527,9 @@ export const restaurants = [
         latitude: 51.06088140917355,  
         longitude: -113.98411812091017,
         rating: "⭐⭐⭐⭐ 4/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Korean Fried Chicken Place that is highly disappointing",
+        review2: "- Every food I have tried from here is just bad :(",
+        review3: "- The fries are okay i guess"
     },
 
     {
@@ -539,9 +539,9 @@ export const restaurants = [
         latitude:51.05441731972578, 
         longitude:  -114.08565228519853,
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Hot Chicken Sandwich shop located in Kensington",
+        review2: "- You could choose the level of spicyness of the sandwich (do not go over medium if you can't eat spicy food, I almost died)",
+        review3: "- Fries could be better"
     },
 
     {
@@ -551,9 +551,9 @@ export const restaurants = [
         latitude: 51.08667919055693,   
         longitude: -114.10368407827407,
         rating: "⭐⭐⭐⭐⭐⭐ 6/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Flirty Bird's Little brother",
+        review2: "- Their sandwich is slightly worse than Flirty Bird (less portion and flavour)",
+        review3: "- Their fries are delicious"
     },
 
     // pizza
@@ -564,9 +564,9 @@ export const restaurants = [
         latitude:51.12701926705517, 
         longitude: -114.05589008018688 ,
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Very popular pizza place",
+        review2: "- The portion is huge!! Donair and cheese are recommended",
+        review3: "- It is greasy and it kinda tastes like it will give me a heart attack, but it is worth it"
     },
 
     {
@@ -588,8 +588,8 @@ export const restaurants = [
         latitude:51.09355593660302, 
         longitude: -114.154422064784, 
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
+        review1: "- Quality Pizza place",
+        review2: "- Highly recommend their varsity speical pizza",
         review3: ""
     },
 
@@ -601,9 +601,9 @@ export const restaurants = [
         latitude:51.04184862050971, 
         longitude: -114.036216902449, 
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Brunch/Hamburger restaurant located in Inglewood",
+        review2: "- I really like their interior and vibe",
+        review3: "- Decent hamburger & fries"
     },
 
     // steak
@@ -614,9 +614,9 @@ export const restaurants = [
         latitude:51.04106721106064, 
         longitude: -114.06598670435045, 
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Very popular restaurant located near Victoria Park station (kinda hard to reserve)",
+        review2: "- Their Hamachi and pasta are soo good",
+        review3: "- Might not be the idea if you want a quiet date night (so loud)"
     },
 
     {
@@ -626,9 +626,9 @@ export const restaurants = [
         latitude:51.052143178433475, 
         longitude: -114.06930136324868, 
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- They really have good happy hour",
+        review2: "- Quality steak and spagetthi for a reasonable price",
+        review3: "- Good interior and vibe"
     },
 
     {
@@ -638,9 +638,9 @@ export const restaurants = [
         latitude:51.08959625068059, 
         longitude: -114.00071221303848, 
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Decent happy hour for steak and other options",
+        review2: "- Their steak is not that big but it is good",
+        review3: "- I would defintely come back here again to try other menus"
     },
 
     // chinese
@@ -651,9 +651,9 @@ export const restaurants = [
         latitude:51.11909201897636, 
         longitude: -114.15679060220815, 
         rating: "⭐⭐⭐⭐⭐⭐ 6/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Popular Chinese Restaurant located in Edgemont",
+        review2: "- Their duck food is great, but the rest are soso",
+        review3: "- Their customer service is not great, a bit rude"
     },
 
     {
@@ -663,9 +663,9 @@ export const restaurants = [
         latitude:51.05066427649155, 
         longitude: -114.06289944662156, 
         rating: " 0/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- THE WORST CUSTOMER SERVICE!!",
+        review2: "- The food is not bad, but the service is just so bad",
+        review3: "- If you don't tip over 20%, they are gonna complain and trust me their customer service do not deserve a single penny of tip"
     },
 
     {
@@ -675,9 +675,9 @@ export const restaurants = [
         latitude:51.08732196507249, 
         longitude: -114.1288734304785, 
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Chinese Hot Pot restaurant located near Brentwood station",
+        review2: "- Kinda pricey but delicious",
+        review3: "- The spicy broth can be really spicy"
     },
 
     // italian
@@ -688,9 +688,9 @@ export const restaurants = [
         latitude:51.03463456697121, 
         longitude: -114.07177768270242, 
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Newly opened italian restaurant",
+        review2: "- Very high quality and fresh pasta",
+        review3: "- Highly recommend Arrabiata and risotto"
     },
 
     {
@@ -700,21 +700,21 @@ export const restaurants = [
         latitude:51.115946130692535, 
         longitude: -114.18061037904467, 
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ 10/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- My favourite spaghetti",
+        review2: "- HUGE PORTION, enough for two people",
+        review3: "- Very cheesy and delicious, lasanga is also very good"
     },
 
     {
-        name: "My Little Italia 🍝",
+        name: "YYC Pasta Bar 🍝",
         type: 'italian',
         address: "314 10 St NW, Calgary, AB T2N 1V8",
         latitude:51.05446477783082,
         longitude:  -114.0855844390485, 
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐ 8/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Decent italian restaurant for low budget",
+        review2: "- Good portion size and good flavour",
+        review3: "- Highly recommend pomodoro and bongole pasta"
     },
 
     // dessert
@@ -725,9 +725,9 @@ export const restaurants = [
         latitude: 51.07819654624652, 
         longitude: -114.14506137844538, 
         rating: "⭐⭐⭐⭐⭐⭐⭐ 7/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Popular Ice cream spot in University District",
+        review2: "- Consisting of seasonal and 'always' flavours",
+        review3: "- Highly recommend earl grey and salted caramel"
     },
 
     // other
@@ -738,9 +738,9 @@ export const restaurants = [
         latitude: 51.03370396604457, 
         longitude: -114.07124841551587 , 
         rating: "⭐⭐⭐⭐⭐⭐⭐⭐⭐ 9/10",
-        review1: "",
-        review2: "",
-        review3: ""
+        review1: "- Really good happy hour consisting tacos and drinks",
+        review2: "- Their salsa is sooo good, I don't know what it is called, but I recommend to use white sauce",
+        review3: "- Highly recommend fish tacos"
     },
 
 ]
