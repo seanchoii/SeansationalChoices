@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project Seansational Choice is a food review application created using React! If you do not know where to eat here in Calgary, use my application to find out what restaurants there are!
+Feel free to give me a restaurant suggestion as well!
 
 ## Available Scripts
 
